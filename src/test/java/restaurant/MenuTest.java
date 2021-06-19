@@ -118,9 +118,9 @@ public class MenuTest {
         Menu menu = new Menu();
 
         //Act
-        String result = menu.chooseDrink(3);
+        String result = menu.chooseDrink(4);
 
         //Assert
-        Assert.assertEquals("3. Sok1", result);
+        Assert.assertEquals("4. Sok1", result);
     }
 }

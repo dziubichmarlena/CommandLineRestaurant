@@ -162,6 +162,8 @@ public class Menu {
             zwrot = "2. Cola";
         } else if (id == 3) {
             zwrot = "3. Sok";
+        } else if (id == 4) {
+            zwrot = "4. Sok1";
         }else if (id == 0)
         {
             show();
