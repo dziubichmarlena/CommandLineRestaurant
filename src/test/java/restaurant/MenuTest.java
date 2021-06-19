@@ -111,4 +111,16 @@ public class MenuTest {
         //Assert
         Assert.assertEquals("3. Sok", result);
     }
+
+    @Test
+    public void MenuChooseDrink_Sok1() throws Exception {
+        //Arrange
+        Menu menu = new Menu();
+
+        //Act
+        String result = menu.chooseDrink(3);
+
+        //Assert
+        Assert.assertEquals("3. Sok1", result);
+    }
 }
