@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-//test comment
+//test comment - 2nd attempt.
 
 public class Menu {
     private ArrayList ordered = new ArrayList();
